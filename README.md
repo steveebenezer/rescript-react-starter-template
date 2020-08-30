@@ -3,9 +3,7 @@
 This is:
 - A template for your new ReasonReact project with the newer Rescript syntax.
 - Extra helper documentation for ReasonReact (full ReasonReact docs [here](https://reasonml.github.io/reason-react/)).
-- Compiles & watches SASS in the webpack build.
-
-`src` contains 4 sub-folders, each an independent, self-contained ReasonReact example. Feel free to delete any of them and shape this into your project! This template's more malleable than you might be used to =).
+- Compiles & watches SASS using webpack.
 
 ## Run
 
