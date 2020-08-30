@@ -1,0 +1,35 @@
+{
+  "name": "rescript-react-starter-template",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world && webpack",
+    "start": "bsb -make-world -w -ws _ ",
+    "clean": "bsb -clean-world",
+    "server": "webpack-dev-server"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react"
+  ],
+  "author": "Steve Paul",
+  "license": "MIT",
+  "dependencies": {
+    "bs-css": "^13.0.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "reason-react": ">=0.7.1",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.2.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
