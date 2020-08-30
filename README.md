@@ -29,10 +29,6 @@ requireImage('./image.png') // loads images
 
 # Bundle for Production
 
-We've included a convenience `UNUSED_webpack.config.js`, in case you want to ship your project to production. You can rename and/or remove that in favor of other bundlers, e.g. Rollup.
-
-We've also provided a barebone `indexProduction.html`, to serve your bundle.
-
 ```sh
 npm run build
 ```
